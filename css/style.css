@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(-45deg,#9796f0,#fbc7d4);
+    color: #fff;
+}
+.word-display {
+    margin-top: 3rem;
+    font-size: 80px;
+    color: lightblue
+}
+.word-input-box {
+    margin-top: 2rem;
+}
+.word-input {
+    padding: 0.5rem;
+    width: 300px;
+    border-radius: 30px;
+    border: solid lightslategrey;
+}
+.game-info {
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 220px;
+
+}
+.game-info span {
+    font-size: 30px;
+}
+.button {
+    width: 200px;
+    height: 35px;
+    background: linear-gradient(-45deg,#9796f0,#fbc7d4);
+    color: #fff;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.loading {
+    background: #ccc;
+    cursor: not-allowed;
+}
